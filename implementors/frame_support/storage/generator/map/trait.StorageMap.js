@@ -1,0 +1,4 @@
+(function() {var implementors = {};
+implementors["dock_runtime"] = [{"text":"impl&lt;T:&nbsp;Trait&gt; StorageMap&lt;[u8; 32], (KeyDetail, &lt;T as Trait&gt;::BlockNumber)&gt; for Dids&lt;T&gt;","synthetic":false,"types":[]}];
+implementors["token_migration"] = [{"text":"impl&lt;T:&nbsp;Trait&gt; StorageMap&lt;&lt;T as Trait&gt;::AccountId, Bonus&lt;&lt;&lt;T as Trait&gt;::Currency as Currency&lt;&lt;T as Trait&gt;::AccountId&gt;&gt;::Balance, &lt;T as Trait&gt;::BlockNumber&gt;&gt; for Bonuses&lt;T&gt;","synthetic":false,"types":[]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
